@@ -23,4 +23,4 @@
 - [Owner](https://t.me/KATTAR_HINDU_NETWORK_OWNER)
 
 ### Special Thanks To
-[Aditya Halder](https://t.me/AdityaHalder)
+- [Aditya Halder](https://t.me/AdityaHalder)
