@@ -1,0 +1,55 @@
+{
+    "name": "RFS-Userbot",
+    "logo": "https://telegra.ph/file/e0ae449fe0a2091b02cec.jpg",
+    "description": "An Advanced Premium Music & user Bot For Telegram ID.",
+    "keywords": ["music", "voice chat", "userbot"],
+    "repository": "https://github.com/RimuruDemonlord/RFS-Userbot",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Your App ID",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your App Hash",
+            "required": true
+        },
+        "STRING_SESSION": {
+            "description": "Pyrogram String Session",
+            "required": true
+        },
+        "HEROKU_API": {
+            "description": "Your HEROKU API KEY",
+            "required": false
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Your HEROKU APP NAME",
+            "required": false
+        },
+        "LOG_GROUP": {
+            "description": "Your Log Group ID",
+            "required": true
+        },
+        "MONGO_DB": {
+            "description": "Your mongodb url",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "Your Sudo User ID",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+             ],
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
