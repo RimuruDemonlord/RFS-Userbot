@@ -19,7 +19,6 @@
 
 ### Owner Of This Repository
 [Developer](https://t.me/Xelcius)
-
 [Owner](https://t.me/KATTAR_HINDU_NETWORK_OWNER)
 
 ### Special Thanks To
