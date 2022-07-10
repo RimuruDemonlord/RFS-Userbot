@@ -26,7 +26,7 @@ async def module_help(client: Client, message: Message):
 
         ac = PrettyTable()
         ac.header = False
-        ac.title = "Gᴇɴɪᴜs Mᴏᴅᴜʟᴇs"
+        ac.title = "RFS Mᴏᴅᴜʟᴇs"
         ac.align = "l"
 
         for x in split_list(sorted(CMD_HELP.keys()), 2):
